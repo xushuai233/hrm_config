@@ -7,6 +7,8 @@ zuul:
   routes:
     sysmanage.serviceId: hrm-sysmanage # 服务名
     sysmanage.path: /sysmanage/** # 把myUser打头的所有请求都转发给user-provider
+    es.serviceId: hrm-es # 服务名
+    es.path: /es/** # 把myUser打头的所有请求都转发给user-provider
     fastdfs.serviceId: hrm-fastdfs # 服务名
     fastdfs.path: /fastdfs/** # 把myUser打头的所有请求都转发给user-provider
     course.serviceId: hrm-course # 服务名
