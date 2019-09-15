@@ -7,6 +7,8 @@ zuul:
   routes:
     sysmanage.serviceId: hrm-sysmanage # 服务名
     sysmanage.path: /sysmanage/** # 把myUser打头的所有请求都转发给user-provider
+    user.serviceId: hrm-user # 服务名
+    user.path: /user/** # 把myUser打头的所有请求都转发给user-provider
     page.serviceId: hrm-page # 服务名
     page.path: /page/** # 把myUser打头的所有请求都转发给user-provider
     redis.serviceId: hrm-redis # 服务名
